@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-body {
-  background-image: url("/imagem/img-fundo.jpg");
-  background-position: right;
-
-}
-
 main {
     background-color: #FFB6C1;
     width: 50%;
