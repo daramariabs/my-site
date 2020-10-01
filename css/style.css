@@ -2,14 +2,40 @@
     margin: 0;
     padding: 0;
 }
-
-main {
+body {
+    background-image: url(C:\Users\dara_\Documents\GitHub\my-site\imagem\img-fundo.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteudo {
     background-color: #FFB6C1;
-    width: 50%;
+    width: 50%;   
+}
+
+h1,p {
+    text-align: center;
     
 }
 
-img {
-    width: 100%;
-    height: 100%;
+.conteudo img {
+    width: 20%;
+    height: auto;
+    border-radius: 300px;
+    top: 0;
+    float: left;
+    position: relative;
+    
+    
+}
+
+.botoes ul li {
+    text-align: center;
+    list-style-type: none;
+    background-color: #ffffff;
+    width: 400px;
+    height: 50px;
+    
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px;
+    
 }
