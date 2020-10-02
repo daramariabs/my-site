@@ -3,15 +3,17 @@
     padding: 0;
 }
 body {
-    background-image: url(/img-fundo.jpg);
+    background-image: url('/imagem/img-fundo.jpg');
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 .conteudo {
     background-color: #FFC0CB;
-    width: 50%; 
+    width: 50%;
     margin: auto;
+    margin-bottom: -1px;
+    
     border: solid 5px #DCDCDC;
     border-radius: 20px;  
 }
