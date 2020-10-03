@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('/imagem/img-fundo.jpg');
+    background-image: url('../imagem/img-fundo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
 
