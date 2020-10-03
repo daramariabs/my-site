@@ -7,6 +7,7 @@ body {
     background-image: url('/imagem/img-fundo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -29,6 +30,7 @@ body {
 h1,p {
     text-shadow: 2px 2px #DCDCDC;
     margin: auto;
+    color: #808080;
 }
 
 .conteudo img {
@@ -49,6 +51,7 @@ h1,p {
     list-style-type: none;
     background-color: #ffff;
     padding: 15px;
+
     width: 70%;
     margin: auto;
     
@@ -69,5 +72,5 @@ a {
     text-decoration: none;
     font-family: "Lucida Console", Courier, monospace;
     color: #808080;
-    font-size: 25px;  
+    font-size: 20px;  
 }
