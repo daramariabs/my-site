@@ -12,23 +12,27 @@ body {
 }
 
 .conteudo {
-    background-color: #FFC0CB;
+    background-color: rgba(255,192,203,0.9);
     text-align: center;
+
     width: 50%;
-    height: 622px;
+    height: 575px;
+
     margin: auto;
     margin-top: 30px;
     margin-bottom: 20px;
+
+    padding: 10px;
     /*box-sizing: border-box;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 10px;
     
-    border: solid 5px #DCDCDC;
+    
+    
+    border: solid 3px #DCDCDC;
     border-radius: 20px;  
 }
 
 h1,p {
-    text-shadow: 2px 2px #DCDCDC;
     margin: auto;
     color: #808080;
 }
@@ -52,14 +56,15 @@ h1,p {
     background-color: #ffff;
     padding: 15px;
 
-    width: 70%;
     margin: auto;
-    
+
     display: block;
     margin-top: 10px;
 
-    border: solid 5px #DCDCDC;
+    border: solid 3px #DCDCDC;
     border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .botoes ul li:hover {
