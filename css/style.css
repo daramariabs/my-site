@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
 }
 body {
     background-image: url('/imagem/img-fundo.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+    background-attachment: fixed; 
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -17,17 +18,14 @@ body {
 
     width: 50%;
     height: 575px;
-
     margin: auto;
     margin-top: 30px;
     margin-bottom: 20px;
-
     padding: 10px;
+
     /*box-sizing: border-box;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-    
-    
+
     border: solid 3px #DCDCDC;
     border-radius: 20px;  
 }
@@ -55,13 +53,13 @@ h1,p {
     text-align: center;
     list-style-type: none;
     background-color: #ffff;
+    
+    margin: auto;
+    margin-top: 10px;
     padding: 15px;
 
-    margin: auto;
-
     display: block;
-    margin-top: 10px;
-
+   
     border: solid 3px #DCDCDC;
     border-radius: 10px;
 
