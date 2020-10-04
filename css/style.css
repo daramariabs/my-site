@@ -44,6 +44,17 @@ h1,p {
     clear: right;*/  
 }
 
+@media(max-width: 600px) 
+{
+  .conteudo {
+    width: 50%;
+    
+  }
+  .conteudo img {
+    width: 20%;
+  }
+}
+
 .botoes {
     margin: auto;
     margin-top: 20px;
