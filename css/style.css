@@ -4,19 +4,23 @@
 
     box-sizing: border-box;
 }
+
 body {
-    background-image: url('../imagem/img-fundo.jpg');
+    /* background-color: #80808054; */
+    background-image: url('../imagem/teste.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
+    background-size: cover;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: -100%;
 }
 
 .conteudo {
-    background-color: rgba(255,192,203,0.9);
+    background-color: hsla(0, 4%, 48%, 0.856);
     text-align: center;
 
-    width: 50%;
+    width: 60%;
     height: 575px;
     margin: auto;
     margin-top: 30px;
@@ -24,21 +28,21 @@ body {
     padding: 10px;
 
     /*box-sizing: border-box;*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.671), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    border: solid 3px #DCDCDC;
+    /* border: solid 3px #cccbcb; */
     border-radius: 20px;  
 }
 
 h1,h2 {
     margin: auto;
-    color: #808080;
-    text-shadow: 2px 2px 10px #ffff;
+    color: #020202;
+    /* text-shadow: 2px 2px 10px #ffff; */
     font-weight: normal;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .conteudo img {
@@ -50,27 +54,27 @@ h2 {
     clear: right;*/  
 }
 
-@media(max-width:600px) 
-{
-  .conteudo {width: 80%;}
-  .conteudo img {width: 40%;}
-}
+
 
 .botoes {
+    width: 90%;
     margin: auto;
     margin-top: 20px;
 }
 
 .botoes ul li {
+    
     text-align: center;
     list-style-type: none;
+    /* border: solid 3px #DCDCDC; */
+
 }
 
 a {
     text-decoration: none;
     font-family: "Lucida Console", Courier, monospace;
-    color: #808080;
-    background-color: #ffff;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.774);
 
     font-size: 20px;  
     margin: auto;
@@ -79,12 +83,43 @@ a {
 
     display: block;
    
-    border: solid 3px #DCDCDC;
+    /* border: solid 3px #DCDCDC; */
+    border: solid 3px #a39d9d;
+
     border-radius: 10px;
 }
 
 a:hover {
-    background-color: #ffff;
+    background-color: rgba(255, 255, 255, 0.863);
     opacity: 0.7;
     cursor: pointer;
+}
+
+
+@media(max-width:800px) 
+{
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+  .conteudo {
+      width: 90%;
+    }
+
+  .conteudo img {
+      width: 35%;
+    }
+
+  .botoes {
+    width: 90%;
+    
+    margin: auto;
+    padding: 0%;
+    /* border: solid 3px #DCDCDC; */
+    }
+
 }
